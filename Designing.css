@@ -78,14 +78,33 @@ textarea:focus{
 }
 
 @media only screen and (max-width: 600px){
-    div, span, input, textarea{
-        width: auto;
-        align-items: center;
-        font-size: 25%;
-        text-align: center;
-        direction: RTL;
+        span.css-10trblm.e16nr0p30{
+        width: 25%;
+        color: rgb(0, 0, 0);
+        position: absolute;
         padding-top: 10%;
         padding-bottom: 10%;
-        border-width: 50%;
+        text-align: center;
+        direction: RTL;
+    }
+    
+    div.css-183lzff.eyqtai90{
+        width: 50%;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        text-align: center;
+        direction: RTL;
+    }
+    
+    
+    
+    div input{
+        font-size: 25% !important;
+        justify-items: auto;
+    }
+    
+    textarea{
+        max-width: 25%;
+        max-width: 25%;
     }
 }
