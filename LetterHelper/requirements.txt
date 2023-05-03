@@ -1,6 +1,0 @@
-beautifulsoup4==4.11.1
-convert_numbers==0.4
-python_docx==0.8.11
-Requests==2.29.0
-selenium==4.9.0
-streamlit==1.21.0
