@@ -1,0 +1,80 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth; /* to scroll dwon */
+}
+
+body{
+    background-color: rgb(151, 196, 200);
+}
+
+span.css-10trblm.e16nr0p30{
+    width: 90%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+    direction: RTL;
+}
+
+div.css-183lzff.eyqtai90{
+    width: 90%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+    direction: RTL;
+}
+
+
+
+div input{
+    font-size: 20px !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    text-align: right;  
+    direction: RTL;
+}
+
+textarea{
+    max-width: 25%;
+    max-width: 25%;
+    text-align: right;  
+    direction: RTL;
+}
+
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(88, 125, 160);
+    border: 1px solid rgb(36, 79, 86);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover{
+    border: 1px solid rgb(25, 62, 68);
+    background:rgb(49, 78, 106);
+}
+
+input:focus{
+    outline: none;
+}
+
+
+textarea:focus{
+    outline: none;
+}
+
+
