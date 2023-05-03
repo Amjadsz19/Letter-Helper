@@ -78,10 +78,14 @@ textarea:focus{
 }
 
 @media only screen and (max-width: 600px){
-    div, span, input{
+    div, span, input, textarea{
+        width: auto;
         align-items: center;
         font-size: 25%;
         text-align: center;
         direction: RTL;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-width: 50%;
     }
 }
