@@ -77,4 +77,10 @@ textarea:focus{
     outline: none;
 }
 
-
+@media only screen and (max-width: 600px){
+    div, span, input{
+        font-size: 50%;
+        text-align: center;
+        direction: RTL;
+    }
+}
